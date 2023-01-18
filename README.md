@@ -1,1 +1,1 @@
-test
+Based on https://debuggercafe.com/a-simple-pipeline-to-train-pytorch-faster-rcnn-object-detection-model/

@@ -1,0 +1,11 @@
+ipython  # interactive notebook
+tensorboard
+torch
+torchvision
+opencv-python
+Pillow
+scipy
+tqdm
+protobuf
+coremltools
+tensorflow
