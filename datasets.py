@@ -69,7 +69,7 @@ class CustomDataset(Dataset):
             yamx_final = (ymax/image_height)*self.height
             
             boxes.append([xmin_final, ymin_final, xmax_final, yamx_final])
-        
+        print(boxes)
         # bounding box to tensor
         boxes = torch.as_tensor(boxes, dtype=torch.float32)
         # area of the bounding boxes
